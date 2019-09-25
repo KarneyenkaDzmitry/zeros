@@ -21,7 +21,10 @@ it('should calculate the number of zeros 4', () => {
   assert.equal(zeros('1!!*2!!*3!!*4!!*5!!*6!!*7!!*8!!*9!!*10!!'), 4);
 });
 
-it('should calculate the number of zeros 1', () => {
+/**
+ * should calculate the number of zeros 8
+ */
+it('should calculate the number of zeros 8', () => {
   assert.equal(zeros('1!!*2!!*3!!*4!!*5!!*6!!*7!!*8!!*9!!*10!!*1!!*2!!*3!!*4!!*5!!*6!!*7!!*8!!*9!!*10!!'), 8);
 });
 
@@ -61,7 +64,10 @@ it('should calculate the number of zeros 30', () => {
   assert.equal(zeros('45!*63!*28!'), 30);
 });
 
-it('should calculate the number of zeros 1', () => {
+/**
+ * should calculate the number of zeros 37
+ */
+it('should calculate the number of zeros 37', () => {
   assert.equal(zeros('45!*63!*28!*55!!'), 37);
 });
 
